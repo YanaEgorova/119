@@ -1,0 +1,17 @@
+.info__wrapper {
+  background-image: url('../img/img1.jpeg');
+  background-repeat: no-repeat;
+  background-position: center ;
+  background-size: cover;
+}
+.info {
+  padding: 15rem 0;
+}
+.info .text {
+  margin: 0;
+}
+@media screen and (min-width: 1024px) {
+  .info .text {
+    max-width: 60rem;
+  } 
+}

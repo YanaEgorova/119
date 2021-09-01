@@ -1,0 +1,30 @@
+.about__wrapper {
+  background-color: var(--second-brand-color);
+}
+.bottom {
+  background-image: url('../img/img2.jpeg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about, .bottom {
+  padding: 5rem 0;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  .about .text, .bottom .text {
+    max-width: 60rem;
+  }
+  .about .block {
+    display: flex;
+    align-items: center;
+  }
+  .bottom {
+    text-align: right;
+    padding: 15rem 0;
+  }
+  .bottom .text {
+    margin: 0;
+    margin-left: auto;
+  }
+}

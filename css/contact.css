@@ -1,0 +1,16 @@
+.contact__wrapper {
+    background-color: var(--main-bg-color);
+}
+.contacts-pd {
+    padding: 10rem 0;
+}
+.contact__wrapper .text {
+    margin-left: 0;
+    max-width: 100%;
+}
+.contact__link-box {
+    margin-bottom: 2rem;
+}
+.contact__link {
+    display: block;
+}

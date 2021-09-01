@@ -1,0 +1,13 @@
+.hero__wrapper {
+  padding: 10rem 0;
+}
+.hero .container {
+  padding-top: 20rem;
+  padding-bottom: 20rem;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+   .hero .title {
+    font-size: 5rem;
+  }
+}
